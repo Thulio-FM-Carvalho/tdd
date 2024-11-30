@@ -1,5 +1,8 @@
 from codigo.bytebank import Funcionario
 
-ana = Funcionario('Ana', '12/03/2977', 100000)
+ana = Funcionario('Ana Coutinho', '25/05/1999', 1000)
 print(ana.calcular_bonus())
+print(ana.idade())
+print(ana.sobrenome())
+
 
