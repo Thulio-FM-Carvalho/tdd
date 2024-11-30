@@ -1,3 +1,11 @@
+# Arquivo de configuração para persolanizar o comportamento da análise da cobertura.
+# [run]: Especifica as opções para a analise da cobertura.
+# source = ./codigo: Especifica o caminho dos arquivos a serem analizados.
+# [report]: Especifica as opções de relatório.
+# exclude_lines = def __str__: Especifica as linhas que serão excluídas do relatório.
+# [html]: Especifica as opções de relatório HTML.
+# directory = coverage_relatorio_html: Especifica o caminho do diretório de relatório HTML.
+
 [run]
 source = ./codigo
 
